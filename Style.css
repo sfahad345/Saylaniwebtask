@@ -1,0 +1,545 @@
+﻿body
+{
+}
+
+#container {
+    width: 1500px;
+    height: 4500px;
+ /*   background-color: antiquewhite;*/
+ 
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+#eng{
+    text-decoration:none;
+    color:black;
+}
+
+#btn{
+    width:150px;
+
+}
+#header {
+    width: 1500px;
+    height: 30px;
+    background-color: #e6e1e1;
+}
+
+#header_email {
+    width: 250px;
+    height: 100%;
+    margin:0px 0px 00px 100px;
+    float:left;
+}
+#header_call {
+    width: 200px;
+    height: 100%;
+    margin: 0px 0px 00px 100px;
+    float: left;
+}
+
+#header_eng{
+    width:80px;
+    height:100%;
+    background-color:white;
+    float:right;
+    margin-right: 100px;
+    text-align:center;
+    padding:inherit;
+}
+
+#nav {
+    width: 1500px;
+    height: 80px;
+    background-color: white;
+  
+    
+}
+
+
+#nav_logo {
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-left:100px;
+}
+
+#nav_bar {
+    width: 550px;
+    height: 100%;
+   
+    float: left;
+    margin-left:40px;
+    padding:20px;
+}
+
+#nav_button {
+    width: 500px;
+    height: 100%;
+ /*   background-color: red;*/
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+#main_left {
+    width: 700px;
+    height: 570px;
+    margin-left: 100px;
+    padding: 150px 0px 0px 0px;
+    float: left;
+    /* background-color: green;
+    border: dashed 2px;
+    */
+}
+
+#main_right {
+    width: 600px;
+    height: 570px;
+    margin-right: 100px;
+    padding: 40px 0px 0px 0px;
+    float: right;
+    /*  background-color: red;
+    border: dashed 2px;*/
+}
+
+#nav_donation{
+    width:1300px;
+    height:140px;
+    background-color:#e4eec9;
+    float:left;
+    margin-left:100px;
+    border-radius:10px;
+    }
+
+#nav_donation_internal {
+    width: 1260px;
+    height: 60px;
+    margin: 40px 20px 20px 20px;
+
+
+}
+#btn_blk1 {
+    width: auto;
+    height: 60px;
+    padding: 15px 10px 10px 10px;
+    color: white;
+    background-color: #443d3d;
+    border-radius: 10px 0px 0px 10px;
+    float: left;
+}
+#btn_blk2 {
+    width: auto;
+    height: 60px;
+    padding: 15px 10px 10px 10px;
+    color: white;
+    background-color: #443d3d;
+    border-radius: 00px 10px 10px 00px;
+    float: inline-end;
+}
+
+#txt_box{
+    width:200px;
+    height:60px;
+    padding:10px 00px 10px 20px;
+    float:left;
+}
+#donation_btn1 {
+    width: auto;
+    height: 100%;
+    margin-left: 20px;
+    color: white;
+    background-color: #443d3d;
+    border-color: #443d3d;
+}
+
+#donation_btn2 {
+    width: auto;
+    height: 100%;
+    margin-left: 20px;
+padding:0px 25px 0px 25px;
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+
+#donation_btn3 {
+    width: 200px;
+    height: 100%;
+    margin-left: 20px;
+    color: white;
+    background-color: #3fdd54;
+    border-color: #3fdd54;
+}
+
+#donation_btn1:hover, #donation_btn2:hover {
+    transform: scale(1.10);
+    color: white;
+    background-color: #443d3d;
+    border-color: #443d3d;
+}
+#donation_btn3:hover {
+    transform: scale(1.10)
+}
+   
+
+#main_img {
+    width: 1300px;
+    height: 600px;
+    float:left;
+    margin:20px 100px 0px 100px;
+}
+
+#mid_txt{
+    width:1300px;
+    height:60px;
+    color:black;
+    float:left;
+    margin:20px 100px 0px 100px;
+    text-align:center;
+    font: bold 36px Verdana;
+  
+}
+
+#doing_icon_main {
+    width: 1300px;
+    height: 180px;
+    float: left;
+    margin: 20px 100px 0px 100px;
+
+}
+
+#doing_icon {
+    width: 180px;
+    height: 180px;
+    background-color: #e4eec9;
+    float: left;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 40px 50px 0px 50px;
+    text-align: center;
+    font: normal 16px verdana;
+}
+
+    #doing_icon:hover {
+      transform:scale(1.10)
+    }
+
+#doing_card_main {
+    width: 1300px;
+    height: 300px;
+    float: left;
+    margin: 20px 100px 0px 100px;
+
+
+}
+
+#doing_card {
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color:black;
+    font: normal 16px verdana;
+    position:relative;
+}
+
+.doing_images{
+    display:block;
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+    opacity:0.4;
+}
+.desc {
+    position: absolute;
+    bottom: 0;
+    margin-left:20px;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 1;
+    color: white;
+    font-size: 20px;
+    padding: 00px 0px 80px 0px;
+    text-align: left;
+}
+
+.doing_images:hover{
+    opacity: 1;
+    transform:scale(1.05)
+}
+
+
+#doing_card_btn {
+    width: 400px;
+    height: 0px;
+  
+ }
+#donate {
+    width: 360px;
+    height: 40px;
+    font:normal 16px verdana;
+    border-radius: 5px;
+    background-color: #3fdd54;
+    color:white;
+    border:none;
+}
+
+#other_projects_main {
+    width: 1300px;
+    height: 500px;
+    float: left;
+    margin: 20px 100px 0px 100px;
+
+}
+
+#other_projects_pics_main {
+    width: 50%;
+    height: 480px;
+    float: left;
+    background-image:url(images/otherproject.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+
+    
+}
+
+#other_projects_desc {
+    width: 50%;
+    height: 480px;
+    float: left;
+
+}
+
+table{
+    margin-left: 5%;
+}
+#col1{
+    width:10%;
+}
+
+#col2{
+    width:80%;
+    
+}
+h5 {
+    color: steelblue;
+}
+#other_logo_div {
+    width: 60px;
+    height: 60px;
+    background-color: lightgrey;
+    border-radius:20%;
+}
+#other_logo {
+    width: 40px;
+    height: 40px;
+    background-color: lightgrey;
+    margin: 10px 0px 0px 10px;
+}
+
+#counting {
+    width: 1300px;
+    height: 400px;
+    float: left;
+    margin: 20px 100px 0px 100px;
+    opacity:0.9;
+    background-image:url(images/counting.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    enable-background:accumulate;
+    align-content:center;
+}
+
+
+#first_row {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 100px 0px 0px 170px;
+    padding: 20px 0px 0px 16px;
+    border-radius: 50%;
+    align-content: center;
+}
+#second_row {
+    width: 120px;
+    height: 60px;
+    float: left;
+    margin: 10px 0px 0px 170px;
+    padding: 20px 0px 0px 16px;
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+#third_row {
+    width: 120px;
+    height: 60px;
+    float: left;
+    margin: 0px 0px 0px 170px;
+    padding: 5px 0px 0px 16px;
+    color: white;
+    text-align:center;
+    opacity:1;
+}
+
+#testimonal {
+    
+    width: 1300px;
+    height: 40px;
+    float: left;
+    margin: 40px 100px 0px 100px;
+    text-align:center;
+    color:limegreen;
+}
+#whatsay {
+    width: 1300px;
+    height: 40px;
+    float: left;
+    margin: 00px 100px 0px 100px;
+    text-align: center;
+    color: black;
+    
+}
+
+#whatsaydetail {
+    width: 1300px;
+    height: 400px;
+    float: left;
+    margin: 10px 100px 0px 100px;
+    text-align: center;
+ background-color:#e0dfdf;
+}
+#aismail{
+    margin-top: 20px;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+#footer_main {
+    width: 1500px;
+    height: 550px;
+    float: left;
+    background-image: url(images/vector.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    opacity: 1;
+    margin: 40px 0px 0px 0px;
+
+}
+#firstlayer{
+    width:1300px;
+    height:250px;
+    float:left;
+    margin: 0px 100px 0px 100px;
+    border-bottom: 1px solid lightgrey;
+}
+#secondlayer {
+    width: 1300px;
+    height: 150px;
+    float: left;
+    margin: 0px 100px 0px 100px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#thirdlayer {
+    width: 1300px;
+    height: 50px;
+    float: left;
+    margin: 0px 100px 0px 100px;
+    border-bottom: 1px solid lightgrey;
+    padding-top: 10px;
+    text-align:center;
+    color:white;
+}
+#fourthlayer {
+    width: 1300px;
+    height: 250px;
+    float: left;
+    margin: 0px 100px 0px 100px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+#fright{
+
+    float:left;
+    font-size:36px;
+    text-align:left;
+    width:400px;
+    height:100%;
+}
+#footerlogo{
+    width:100%;
+    height: 110px;
+    background-image:url(images/logo.png);
+    background-size:99.99%;
+    float:left;
+    margin-top:50px;
+}
+#footersm {
+    width: 100%;
+    height: 80px;
+    
+    float: left;
+    padding-left:20px;
+}
+#socialicon{
+    margin-left:10px;
+    width:40px;
+    border-radius:10px;
+}
+
+
+
+#sright {
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    width: 250px;
+    height: 100%;
+    color: white;
+    padding: 20px 0px 0px 8px;
+}
+#tright {
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    width: 250px;
+    height: 100%;
+    color: white;
+    padding: 20px 0px 0px 8px;
+}
+#fthright {
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    width: 400px;
+    height: 100%;
+    color:white;
+    padding:20px 0px 0px 8px;
+    }
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
